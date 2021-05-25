@@ -12,10 +12,8 @@ My name is Joy, living in Qingdao.
 3. [Zhao Liying](https://baike.baidu.com/item/%E8%B5%B5%E4%B8%BD%E9%A2%96/10075976?fr=aladdin);
 
 
-
-
-
 ![](zhao.jpg)
+
 4. And all those good-looking stars.
    
 THE FOLLOWING CODE HAS NOTHING TO DO WITH ME:
