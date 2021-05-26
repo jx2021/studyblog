@@ -37,13 +37,13 @@ HTML的英文全称是 Hypertext Marked Language,即超文本标记语言，是�
 
 #### IV. 全局属性
 
-* class
-* contenteditable
-* hidden
-* id
-* style
-* tabindex
-* title
+* class 类
+* contenteditable 内容可编辑
+* hidden 隐藏
+* id 唯一身份
+* style 样式
+* tabindex 指定 tab 键顺序
+* title 标题
 
 #### v. 常用内容标签
 
