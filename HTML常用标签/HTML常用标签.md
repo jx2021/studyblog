@@ -31,8 +31,8 @@
   <a href="javascript:alert(1);">javascript伪协议</a>
   <a href="javascript:;">点击没有任何反应</a>
   <a href="#xxx">跳转到指定标签</a>
-  <a href="mailto: xxxxx@gmail.com">发邮件</a>
-  <a href="tel: 1300000000">打电话给我</a>
+  <a href="mailto: xxxxx@gmail.com">发邮件给</a>
+  <a href="tel: 1300000000">打电话给</a>
   
   ```
 
