@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* border: 1px solid black; */
+    background: white;
+}
+.rainbow{
+    /* 	border: 1px solid black; */
+    height: 200px;
+    overflow: hidden;
+}
+.rainbow div{
+    overflow: hidden;
+}
+.rainbow>div{
+    /* border: 1px solid #FF1928; */
+    width: 400px;
+    height: 400px;
+    background: #FF1928;
+    border-radius: 50%;
+}
+.rainbow>div>div{
+    /* border: 1px solid #F88210; */
+    background: #F88210;
+    height: 380px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div{
+    /* border: 1px solid #FDFF00; */
+    background: #FDFF00;
+    height: 360px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div>div{
+    /* border: 1px solid #A5FF0D; */
+    background: #A5FF0D;
+    height: 340px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div>div>div{
+    /* border: 1px solid #81FFD5; */
+    background: #81FFD5;
+    height: 320px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div>div>div>div{
+    /* border: 1px solid #3870F9; */
+    background: #3870F9;
+    height: 300px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div>div>div>div>div{
+    /* border: 1px solid #E86DFA; */
+    background: #E86DFA;
+    height: 280px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.rainbow>div>div>div>div>div>div>div>div{
+    /* border: 1px solid white; */
+    background: white;
+    height: 260px;
+    margin: 10px;
+    border-radius: 50%;
+}
