@@ -1,0 +1,37 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.logo{
+    border: 1px solid red;
+    height: 40px;
+    width: 100px;
+    float: left;
+    margin-top: 5px;
+/*IE6/7存在双倍margin bug，解决办法如下：*/
+/*    margin-left: 10px;*/
+/*    _margin-left: 5px;*/
+
+/*    display: inline-block;*/
+
+}
+nav{
+    border: 1px solid green;
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+.user{
+    border: 1px solid blue;
+    /*width: 100px;*/
+    height: 30px;
+    float: left;
+    max-width: 100px;
+}
+header{
+    border: 1px solid black;
+}

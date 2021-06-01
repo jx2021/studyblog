@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    background: grey;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+
+.logo > img {
+    /*width: 100px;*/
+    height: 26px;
+    /*border: 1px solid red;*/
+    /*图片下面有多余的东西：以下两种解决方式*/
+    /*vertical-align: middle;*/
+    vertical-align: top;
+    margin-top: 8px;
+
+}
+
+.nav {
+    float: left;
+    margin-left: 20px;
+}
+
+ul > li {
+    float: left;
+    /*border: 1px solid red;*/
+    padding: 4px 0.5em;
+    line-height: 32px;
+}
+
+ul {
+    /*border: 1px solid green;*/
+    display: inline-block;
+}
+
+header {
+    /*border: 1px solid blue;*/
+    background: grey;
+    color: white;
+}
+
+.content {
+    /*border: 1px solid #ff0000;*/
+    /*outline: 1px solid red;*/
+    width: 800px;
+    /*margin: 0 auto;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content > aside {
+    width: 200px;
+    /*border: 1px solid green;*/
+    height: 300px;
+    float: left;
+    background: #81FFD5;
+
+}
+
+.content > main {
+    /*border: 1px solid purple;*/
+    height: 300px;
+    width: 500px;
+    float: left;
+    background: #A5FF0D;
+}
+
+.content > .ad {
+    width: 100px;
+    /*border: 1px solid black;*/
+    height: 300px;
+    float: left;
+    background: #F88210;
+}
+.imageList{
+    /*outline: 1px solid red;*/
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.imageList>.x>.image{
+    width: 191px;
+    height: 191px;
+    background: skyblue;
+    /*border: 1px solid blue;*/
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 12px;
+
+}
+.imageList>.x{
+    margin-right: -12px;
+}
+
+
