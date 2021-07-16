@@ -39,7 +39,7 @@ if (表达式) {
 
 * if...else
 * switch
-* A?B;C
+* A?B:C
 * A&&B
 * fn&&fn()
 * A || B
@@ -71,7 +71,6 @@ continue退出当前一次循环
   a: 1
 }
 a是label，语句是1
-
 
 
 
